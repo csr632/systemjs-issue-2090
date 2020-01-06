@@ -1,0 +1,21 @@
+{
+  "name": "test-webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "debug": "npx --node-arg=--inspect-brk webpack-cli",
+    "start": "webpack-cli",
+    "serve": "serve"
+  },
+  "dependencies": {
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "babel-loader": "^8.0.6",
+    "serve": "^11.3.0"
+  }
+}
