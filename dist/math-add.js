@@ -96,11 +96,11 @@ System.register([], function(__WEBPACK_DYNAMIC_EXPORT__) {
 /*!*************************!*\
   !*** ./src/math-add.js ***!
   \*************************/
-/*! exports provided: default */
+/*! exports provided: default, __esModule */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\nfunction add(a, b) {\n  return a + b;\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (add);\n\n\n//# sourceURL=webpack:///./src/math-add.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"__esModule\", function() { return __esModule; });\nfunction add(a, b) {\n  return a + b;\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (add);\nconst __esModule = true\n\n\n//# sourceURL=webpack:///./src/math-add.js?");
 
 /***/ })
 

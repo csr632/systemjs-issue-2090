@@ -100,11 +100,11 @@ System.register(["math-add"], function(__WEBPACK_DYNAMIC_EXPORT__) {
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
-/*! no exports provided */
+/*! exports provided: __esModule */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var math_add__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! math-add */ \"math-add\");\n/* harmony import */ var math_add__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(math_add__WEBPACK_IMPORTED_MODULE_0__);\n\n\nconsole.log(math_add__WEBPACK_IMPORTED_MODULE_0___default.a);\nconsole.log(math_add__WEBPACK_IMPORTED_MODULE_0___default()(1, 2));\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"__esModule\", function() { return __esModule; });\n/* harmony import */ var math_add__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! math-add */ \"math-add\");\n/* harmony import */ var math_add__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(math_add__WEBPACK_IMPORTED_MODULE_0__);\n\n\nconsole.log(math_add__WEBPACK_IMPORTED_MODULE_0___default.a);\nconsole.log(math_add__WEBPACK_IMPORTED_MODULE_0___default()(1, 2));\nconst __esModule = true\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ }),
 
