@@ -8,6 +8,27 @@
   </head>
   <body>
     <script src="https://unpkg.com/systemjs@6.1.7/dist/system.js"></script>
+    <script>
+      (function() {
+        const originalInstantiate = System.instantiate;
+        System.instantiate = function () {
+          return originalInstantiate.apply(this, arguments).then(function (register) {
+            return [register[0], function (_export, _context) {
+              return register[1](exportWithEsModule, _context)
+
+              function exportWithEsModule(arg1) {
+                if (typeof arg1 === 'object' && arg1.__esModule) [
+                  _export('__esModule', true)
+                ]
+
+                _export.apply(this, arguments)
+              }
+            }]
+          })
+        }
+      })()
+    </script>
+
     <script type="systemjs-importmap">
       {
         "imports": {
