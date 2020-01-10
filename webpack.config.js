@@ -15,7 +15,8 @@ module.exports = [
     mode: "development",
     entry: { "math-add": "./src/math-add.js" },
     output: {
-      libraryTarget: "system"
+      libraryTarget: "umd",
+      library: "mathAdd"
     }
   }
 ];

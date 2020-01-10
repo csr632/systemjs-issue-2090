@@ -1,10 +1,14 @@
-System.register([], function(__WEBPACK_DYNAMIC_EXPORT__) {
-
-	return {
-
-		execute: function() {
-			__WEBPACK_DYNAMIC_EXPORT__(
-/******/ (function(modules) { // webpackBootstrap
+(function webpackUniversalModuleDefinition(root, factory) {
+	if(typeof exports === 'object' && typeof module === 'object')
+		module.exports = factory();
+	else if(typeof define === 'function' && define.amd)
+		define([], factory);
+	else if(typeof exports === 'object')
+		exports["mathAdd"] = factory();
+	else
+		root["mathAdd"] = factory();
+})(window, function() {
+return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
 /******/
@@ -100,12 +104,9 @@ System.register([], function(__WEBPACK_DYNAMIC_EXPORT__) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\nfunction add(a, b) {\n  return a + b;\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (add);\n\n\n//# sourceURL=webpack:///./src/math-add.js?");
+eval("__webpack_require__.r(__webpack_exports__);\nfunction add(a, b) {\n  return a + b;\n}\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (add);\n\n\n//# sourceURL=webpack://mathAdd/./src/math-add.js?");
 
 /***/ })
 
-/******/ })
-			);
-		}
-	};
+/******/ });
 });
